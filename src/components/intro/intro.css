@@ -1,0 +1,93 @@
+
+#intro {
+    min-height: 100vh;
+    padding-top: 6rem; 
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    color: #D6CFE1;
+    display: flex;
+    align-items: center; 
+}
+
+.bg {
+    position: absolute;
+    top: 6rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: calc(100vh - 6rem);
+    
+}
+
+.introcontent {
+    padding: 4rem;
+    font-size: 3rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 2;
+    position: relative;
+}
+.hello {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #F2DE9B;
+}
+
+.introText {
+    color: #D6CFE1;
+    
+}
+
+.intropara {
+    font-size: 1.1rem;
+    font-weight: 400;
+    max-width: 35rem;
+    line-height: 1.6;
+    color: #D6CFE1;
+}
+
+/*animations*/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.introcontent {
+    animation: fadeIn 1.5s ease-out;
+}
+.hello {
+    animation: fadeIn 1.5s ease-out;
+    animation-delay: 0.3s;
+    animation-fill-mode: both;
+}
+
+.introText {
+    animation: fadeIn 1.5s ease-out;
+    animation-delay: 0.6s;
+    animation-fill-mode: both;
+}
+
+.intropara {
+    animation: fadeIn 1.5s ease-out;
+    animation-delay: 0.9s;
+    animation-fill-mode: both;
+}
+
+.bg {
+    animation: fadeIn 1.5s ease-out;
+    animation-delay: 0.1s;
+    animation-fill-mode: both;
+}
+

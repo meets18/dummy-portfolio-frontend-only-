@@ -1,0 +1,70 @@
+
+.navbar {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #000; 
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.1);
+}
+
+
+.logo {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); /* Red glow */
+}
+
+
+.desktopMenu {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.desktopMenulist {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.desktopMenulist:hover {
+    background-color: #D6CFE1; 
+    color: black;            
+    box-shadow: 0 0 10px black; 
+}
+
+
+.desktopMenubtn {
+    background-color: #eb4a4a;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.desktopMenubtn:hover {
+    background-color: #ff0033;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+

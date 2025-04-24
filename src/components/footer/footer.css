@@ -1,0 +1,19 @@
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.footer-text {
+    font-size: 1.2rem;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-name {
+    margin-right: 10rem; 
+
+}
+
+

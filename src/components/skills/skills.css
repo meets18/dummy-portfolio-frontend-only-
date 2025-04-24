@@ -1,0 +1,70 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+    margin-top: 1.2rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 60rem;
+    padding: 0 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skillBars {
+    margin: 1.5rem 0;
+    width: 100vw;
+    max-width: 60rem;
+    text-align: left;
+}
+
+.skillBar {
+    display: flex;
+    margin: 1rem 0;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    background: rgb(50, 50, 50);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.skillBar:hover {
+    box-shadow: 0 0 10px #D6CFE1;
+    transform: translateY(-5px);
+}
+
+.skillBarimg {
+    object-fit: cover;
+    height: 7rem;
+    width: 7rem;
+    margin-right: 2rem;
+}
+
+.skillBartext > h2 {
+    font-size: 2rem;
+    color: #F2DE9B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skillBartext > p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #D6CFE1;
+    margin-top: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

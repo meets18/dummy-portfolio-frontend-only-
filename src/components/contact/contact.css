@@ -1,0 +1,103 @@
+#contact {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d6cfe1;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contacttitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #f2de9b;
+}
+
+.contactdesc {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #d6cfe1;
+    font-weight: 300;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 40rem;
+    gap: 1rem;
+}
+
+.name, .email, .message {
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    background-color: #1a1a1a;
+    color: white;
+    outline: none;
+    transition: box-shadow 0.2s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name:focus, .email:focus, .message:focus {
+    box-shadow: 0 0 8px #eb4a4a;
+}
+
+.submit {
+    padding: 0.8rem;
+    border: none;
+    background-color: #eb4a4a;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+}
+
+.submit:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+.social {
+    margin-top: 2.5rem;
+}
+
+.social-title {
+    font-size: 2rem;
+    color: #f2de9b;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.socialimg {
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #0000;
+    padding: 0.4rem;
+}
+
+.socialimg:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #d6cfe1;
+}
