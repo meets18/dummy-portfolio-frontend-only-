@@ -91,3 +91,21 @@
     animation-fill-mode: both;
 }
 
+@media (max-width: 768px) {
+    .introContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .introText {
+        font-size: 2rem;
+    }
+
+    .introName {
+        font-size: 2.5rem;
+    }
+}

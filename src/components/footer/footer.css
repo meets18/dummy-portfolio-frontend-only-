@@ -16,4 +16,13 @@
 
 }
 
+@media (max-width: 768px) {
+    .footer-text {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+
+
 
